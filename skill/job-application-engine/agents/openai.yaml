@@ -1,0 +1,8 @@
+interface:
+  display_name: "Job Application Engine"
+  short_description: "Tailor credible, human job applications"
+  default_prompt: "Use $job-application-engine to assess this role and prepare an evidence-grounded application package."
+
+policy:
+  allow_implicit_invocation: true
+

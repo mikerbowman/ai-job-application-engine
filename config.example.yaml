@@ -1,0 +1,33 @@
+search:
+  titles:
+    - SEO Manager
+    - Technical SEO Manager
+    - Organic Growth Strategist
+    - Ecommerce Manager
+    - Digital Marketing Manager
+  locations:
+    - Remote, United States
+    - Denver metro
+  minimum_salary_usd: 90000
+  maximum_posting_age_days: 30
+
+scoring:
+  strong_fit_threshold: 80
+  weights:
+    core_outcomes: 30
+    required_skills: 25
+    evidence_strength: 20
+    compensation_and_location: 15
+    preferred_skills: 10
+
+application:
+  tailor_resume: true
+  include_cover_letter_when_available: true
+  require_human_review: true
+  require_final_submission_approval: true
+
+privacy:
+  candidate_facts_path: ../private/candidate-facts.md
+  professional_stories_path: ../private/professional-stories.md
+  outputs_path: ../private/outputs
+

@@ -1,0 +1,22 @@
+# Candidate-private data
+private/
+applications/
+prospects/
+outputs/
+*.resume.*
+*.cover-letter.*
+*.application-packet.*
+
+# Local configuration and secrets
+.env
+.env.*
+config.yaml
+*.pem
+*.key
+
+# Generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
